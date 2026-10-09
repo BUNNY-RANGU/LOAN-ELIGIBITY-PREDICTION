@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Python
+__pycache__/
+*/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# Vite / Build outputs
+.vite/
+dist/
+build/
+
+# Editor / Tool dirs
+.vscode/
+.idea/
+.agent/
+.qoder/
+.ralphy/
+
+# OS / Misc
+.DS_Store
+Thumbs.db

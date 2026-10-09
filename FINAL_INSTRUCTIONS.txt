@@ -1,0 +1,24 @@
+--- PROJECT STATUS: READY TO RUN ---
+
+I have prepared the frontend, backend, and machine learning code. 
+Due to a system-wide issue with terminal commands on Windows, I cannot launch the servers for you.
+
+Please follow these 2 simple steps to see the output:
+
+1. Locate the file 'run_project.bat' in this folder.
+2. RIGHT-CLICK it and select 'Run as Administrator' (or just double-click it).
+
+This will open three terminal windows:
+- One will train the model.
+- One will start the Backend (Port 8000).
+- One will start the Frontend (Port 5173).
+
+Once they are running, open your browser and go to:
+http://localhost:5173
+
+The application will look like a premium, dark-themed AI dashboard.
+You can enter loan details like Income, Credit History, etc., and get an instant AI prediction with a detailed PDF report.
+
+IF YOU HAVE ISSUES:
+- Make sure 'python' and 'npm' are installed on your computer.
+- If you see a 'Port already in use' error, close any other terminal windows you have open.
